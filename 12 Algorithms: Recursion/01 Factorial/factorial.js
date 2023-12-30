@@ -11,7 +11,7 @@ function findFactorialRecursive(number) {
 function findFactorialIterative(number) {
   //code here
   var answer = 1;
-  for (let i = number; i > 0; i--) {
+  for (let i = number; i > 1; i--) {
     answer = answer * i;
   }
   return answer;
